@@ -1,0 +1,8 @@
+<constructor-arg> type="what type the value is (not nessesary) ie: int" intex="which number in the constructor this is." value="what to put in the constructor" /> 
+// uses constructor with that number of arguments
+
+
+<property> name="name of variable to set" value="what to set it to" />
+ // uses setter called setName()
+ 
+ // to make a class inside a class, declare a seperate bean and call it in the bean.

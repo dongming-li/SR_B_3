@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fa0000"
+        android:textSize="27dp"
+        android:text="Congratulations!! You have single-handily vanquished the evildoer and saved the entire world!!
+Go on now, your head held high, you did it! Now go out there, and teach a dinosaur how to ride a ball
+
+ Thank you for playing this amazing game, it was tons of stress and nights with no sleep and pain, so we thank you very much and hope you enjoy this mehhhh project!! - Team 4*" />
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fa0000"
+        android:textSize="27dp"
+        android:text="YOU HAVE DIED
+Oh no, the kingdom has fallen and everyone was killed, good job.
+You may still have a chance yet! Join another dimension and save that kingdom from the evildoers.
+Heroes never die, remember that, brave one.
+I hope you enjoyed the game, join another server to play again. If not we are glad you spent the time with this game- Team 4*" />
+</LinearLayout>

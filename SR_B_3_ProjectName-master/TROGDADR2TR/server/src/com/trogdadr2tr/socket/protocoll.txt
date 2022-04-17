@@ -1,0 +1,36 @@
+Proper communication between server and client:
+
+Client to Server:
+Send a string object with a command phrase, then the corresponding update.
+	String Command	|	Object to Send
+	PLACE BUILDING		Point, String name
+	ATTACK BUILDING		int index, double damage
+	MOVE UNITS			Point, ArrayList<Integer> indexes
+	ATTACK UNIT			int index, double damage
+	MOVE PLAYER			Direction (enum)
+	QUIT				
+
+
+Server to Client:
+Send a string object with a command phrase, then the corresponding update.
+	String command	|	Object to Send
+	BUILDINGS			ArrayList<Building>
+	BUILDING			int index, Building
+	UNITS				ArrayList<Unit>
+	UNIT				int index, Unit
+	TERRAIN				ArrayList<Terrain>
+	QUIT				
+
+
+Connecting:
+Authenticate, store, etc.
+
+
+Disconnecting:
+Client should send the String "QUIT" as it disconnects, so the server knows what's up.
+If the server decides to disconnect, send the signal "QUIT" to the client. 
+If the client refuses to disconnect nicely, terminate its connection after a timeout.
+
+
+
+This file is mostly garbage and needs to be changed. D:
